@@ -1,0 +1,86 @@
+body * {
+    margin: 0;
+    padding: 0;    
+    font-family: 'Heebo', sans-serif;
+    color: rgb(87, 83, 83);
+    
+}
+
+
+.navbar {
+    background-color: #8d8c66;
+}
+
+ .nav-link {
+    color: white;
+    font-weight: 500;
+}
+
+.img-max {
+    max-width: 300px;
+    width: 100%;
+}
+
+
+#about p {
+    padding-top: 0.75rem;
+}
+
+h1 {
+    font-family: 'Viga', sans-serif;
+}
+
+.logos svg {
+    margin: 1rem;
+}
+
+.slider-container {
+    margin: 4rem 0;
+
+}
+
+.container-fluid {
+    overflow: hidden; 
+
+  }
+
+.slider {
+    animation: slidein 30s linear infinite;
+    white-space: nowrap;}
+.logos {
+    width: 100%;
+    display: inline-block;
+    margin: 0px 0;}
+
+.slider svg {
+    width: calc(100% / 5);
+    animation: fade-in 0.5s
+    cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+    }
+  
+  @keyframes slidein {
+    from {
+      transform: translate3d(0, 0, 0);
+    }
+    to {
+      transform: translate3d(-100%, 0, 0);
+    }
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .card {
+    max-width: 400px;
+  }
+
+ .contact-section svg {
+    width: 5rem;
+    
+ }
